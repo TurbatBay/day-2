@@ -1,0 +1,320 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+a {
+    color: black;
+}
+
+.last-nav a {
+    color: #F17228;
+}
+
+img {
+    width: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    color: #F17228;
+}
+
+.logo h2 {
+    padding-top: 13px;
+}
+
+.orange-nav {
+    color: #F17228;
+}
+
+.tses ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 40px;
+    font-weight: 800;
+}
+
+.last-nav ul li {
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+    font-weight: 800;
+}
+
+.tses a {
+    text-decoration: none;
+}
+
+.last-nav a {
+    text-decoration: none;
+}
+
+.input {
+    border: none;
+    border: 2px solid #FBC5A6;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+header {
+    width: 100%;
+    width: 1440px;
+    margin: auto
+}
+
+
+
+/* ENNEES DOOSHOO MAIN */
+
+
+main {
+    width: 100%;
+    width: 1440px;
+    margin: auto;
+    background: #F5F5F5;
+}
+
+.bg img {
+    width: 1440px;
+    height: 496px;
+}
+
+.bowl-1 img {
+    position: absolute;
+    width: 305px;
+    height: 369.08px;
+    left: 60.25px;
+    top: 15.46px;
+}
+
+.bowl-2 img {
+    position: absolute;
+    width: 345px;
+    height: 311px;
+    left: 182.75px;
+    top: 64.46px;
+}
+
+.bowls img {
+    margin-left: 350px;
+    margin-top: 80px;
+}
+
+h1 {
+    position: absolute;
+    width: 384px;
+    height: 121px;
+    left: 1082.75px;
+    top: 164.46px;
+    font-size: 55px;
+    font-weight: 500;
+    line-height: 49.5px;
+    text-align: right;
+    color: #F17228;
+}
+
+.line {
+    background-color: rgba(241, 114, 40, 0.6);
+    position: absolute;
+    width: 333px;
+    height: 3px;
+    left: 1136px;
+    top: 280px;
+
+}
+
+.hosgui-p p {
+    position: absolute;
+    width: 384px;
+    height: 121px;
+    left: 1082.75px;
+    top: 300px;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26.4px;
+    text-align: right;
+    color: #4D2000;
+    font-family: 'Comfortaa', cursive;
+}
+
+
+
+
+/* features heseg */
+
+
+.features {
+    width: 1200px;
+    height: 152px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto;
+    align-items: center;
+
+    background: rgba(255, 255, 255, 0.1);
+    /* button.sh */
+
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.05);
+    border-radius: 30px;
+}
+
+.features h3 {
+    /* font-family: 'Poppins'; */
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+
+    color: #1D1D1F;
+}
+
+.features p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    /* identical to box height */
+
+
+    color: #1D1D1F;
+
+    opacity: 0.75;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+
+
+
+/* hymdraltai tses */
+
+
+
+article {
+    background-color: rgb(255, 255, 255);
+    width: 282px;
+    height: 304px;
+    margin: auto;
+    border-radius: 20px;
+
+}
+
+.hool img {
+    height: 208px;
+    width: 252px;
+    left: 20px;
+    top: 15px;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+
+.sale {
+    font-weight: 600;
+}
+
+.hool ul li {
+    list-style: none;
+    display: inline-block;
+    color: #F17228;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    margin-left: 20px;
+}
+.hool ul li:last-child {
+    color:black;
+    text-decoration-line: line-through;
+}
+.hool h2 {
+    margin-left: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+}
+.sale-1 {
+    display: flex;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.square {
+    width: 11px;
+    height: 30px;
+    background-color: #F17228;
+}
+
+.button {
+    background: #F17228;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .button1 {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  }
+  .jijkeen-nav {
+    display: flex;
+    justify-content: space-between;
+  }
+  .jijkeen-nav p {
+    font-size: 20px;
+    font-weight: 700px;
+    line-height: 30px;
+    color: #171717;
+    margin-left: 40px;
+
+    
+  }
+  .gol {
+    padding-bottom: 80px;
+  }
+
+
+
+
+
+
+  /* FOOOTERERERERERE */
+
+
+
+footer img {
+    width: 1440px;
+    height: 384px;
+    margin-left: 232px;
+    margin-top: 100px;
+
+}
